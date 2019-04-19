@@ -1,0 +1,55 @@
+.main-container{
+    display: inline-block;
+  }
+  .y-axis{
+    float: left;
+    margin-right: 20px;
+    margin-top: 100px;
+  }
+  .bar-container{
+    display: inline-block;
+  }
+  .bar-list{
+    border-left:1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 0px 0px 5px;
+    white-space:nowrap;
+    list-style: none;
+  }
+  .bar{
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .bar .bar-hovertext{
+    visibility: hidden;
+    padding: .55rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #000;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -60px;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .bar .bar-hovertext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+  }
+  .bar:hover .bar-hovertext{
+    visibility: visible;
+    opacity: 1;
+  }
+  
