@@ -1,5 +1,5 @@
 {
-    "name": "@sharmanilay/react-barchart",
+    "name": "react-easy-bar-chart",
     "version": "0.0.1",
     "description": "A simple react bar chart component for react",
     "main": "build/index.js",
