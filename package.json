@@ -16,6 +16,14 @@
         "start": "webpack --watch",
         "build": "webpack"
     },
+    "keywords": [
+      "react",
+      "charts",
+      "bar chart",
+      "simple bar chart",
+      "react bar chart",
+      "react charts"
+    ],
     "author": {
         "name": "Nilay Sharma",
         "email": "nilaysharma642@gmail.com"
