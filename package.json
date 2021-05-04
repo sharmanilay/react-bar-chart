@@ -6,6 +6,7 @@
     "peerDependencies": {
         "react": "^16.8.6"
     },
+    "keywords": ["react", "bar chart", "chart", "react bar chart", "react" , "react charts"],
     "dependencies": {
         "@babel/plugin-proposal-class-properties": "^7.4.0",
         "react": "^16.8.6",
