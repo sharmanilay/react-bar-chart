@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://www.buymeacoffee.com/nilaysharma" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 150px !important;" ></a>
+</p>
+
 # React Bar Chart
 
 ### Description
